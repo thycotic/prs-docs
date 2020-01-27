@@ -1,5 +1,5 @@
 [title]: # (Integration)
-[tags]: # (welcome)
+[tags]: # (syslog, integration)
 [priority]: # (600)
 
 # Syslog Integration Guide
