@@ -1,6 +1,6 @@
 [title]: # (Web Service Methods)
-[tags]: # (web service, methods)
-[priority]: # (1)
+[tags]: # (web services, methods)
+[priority]: # (903)
 
 # Web Service Methods
 
@@ -10,7 +10,7 @@ This method is used to authenticate a username and password, and gives a token i
 
 ### Return Type
 
-[Token](#token)
+[Token](concepts.md)
 
 ### Parameters
 
@@ -43,7 +43,7 @@ This method is used to automatically fill out a question for a user. It allows e
 
 ### ReturnType
 
-[WebServiceResult](#webserviceresult)
+[WebServiceResult](webservicetypes.md)
 
 ### Parameters
 

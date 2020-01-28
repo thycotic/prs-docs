@@ -1,6 +1,6 @@
 [title]: # (Web Service Types)
-[tags]: # (web service, types)
-[priority]: # (1)
+[tags]: # (web services, types)
+[priority]: # (904)
 
 # Web Service Types
 
