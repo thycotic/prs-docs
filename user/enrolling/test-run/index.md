@@ -1,5 +1,5 @@
 [title]: # (Test Run)
-[tags]: # (enroll)
+[tags]: # (enroll, test)
 [priority]: # (3)
 
 # Test Run

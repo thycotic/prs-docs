@@ -1,5 +1,5 @@
 [title]: # (Confirmation)
-[tags]: # (reset, password)
+[tags]: # (confirm, reset, password)
 [priority]: # (3)
 
 # Confirmation

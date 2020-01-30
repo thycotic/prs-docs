@@ -1,5 +1,5 @@
 [title]: # (Answering Security Questions)
-[tags]: # (reset, password)
+[tags]: # (questions, reset, password)
 [priority]: # (2)
 
 # Answering Security Questions
