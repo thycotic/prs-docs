@@ -1,8 +1,8 @@
-[title]: # (Integration)
+[title]: # (Syslog Integration)
 [tags]: # (syslog, integration)
 [priority]: # (600)
 
-# Syslog Integration Guide
+# Syslog Integration
 
 ## Meeting Information Security Compliance Mandates
 
@@ -15,6 +15,40 @@ Leveraging Password Reset Server event data with SIEM and Log Management solutio
 Table 1 is a complete list of events in Password Reset
 Server’s Syslog. Both the Event Name and Event ID are contained in the log as
 well as the data fields that apply to the event.
+
+## Password Reset Data Fields
+
+Table 2 is a complete list of data fields in Password
+Reset Server’s Syslog. Only Data Fields relevant to the Event ID are included in
+the log. Some log entries may differ in terms of their field content, see
+examples below.
+
+### Example Event 1
+
+In this event, a user has started the reset process:
+
+```
+May 15 09:39:55 THY364 CEF:0\|Thycotic Software\|Password Reset
+Server\|4.1.000001\|10007\|USER - START RESET\|2\|msg=[PasswordResetServer]
+Event: [User] Action: [Start Reset] By User:
+test.thycotic.com\\\\THYCOTICTESTUSER Item Name:
+test.thycotic.com\\\\THYCOTICTESTUSER Details THYCOTICTESTUSER suid=173
+suser=test.thycotic.com\\\\THYCOTICTESTUSER cs4= duser=
+test.thycotic.com\\\\THYCOTICTESTUSER duid=173 fname=
+test.thycotic.com\\\\THYCOTICTESTUSER fileType=User fileId=173 src=::1 rt=May 15
+2015 09:39:55
+```
+
+### Example Event 2
+
+In this event, an administrator has edited a report.
+
+```
+May 15 09:29:12 THY364 CEF:0\|Thycotic Software\|Password Reset
+Server\|4.1.000001\|10003\|REPORT - REPORT_EDIT\|2\|msg=[PasswordResetServer]
+Event: [Report] Action: [Report Edit] By User: admin Details User Param suid=1
+suser=admin cs4= src=::1 rt=May 15 2015 09:29:12
+```
 
 ### Table 1
 
@@ -58,12 +92,7 @@ well as the data fields that apply to the event.
 | USER - HELP DESK RESET UPDATE SUCCESS | 10016        |
 | USER - HELP DESK RESET UPDATE FAILURE | 10017        |
 
-## Password Reset Data Fields
 
-Table 2 is a complete list of data fields in Password
-Reset Server’s Syslog. Only Data Fields relevant to the Event ID are included in
-the log. Some log entries may differ in terms of their field content, see
-examples below.
 
 ### Table 2
 
@@ -93,30 +122,3 @@ examples below.
 | "Folder"                                 | cs3label       |
 | Display name of user performing action \*| cs4            |
 | "suser Display Name" \*                  | cs4label       |
-
-### Example Event 1
-
-In this event, a user has started the reset process:
-
-```
-May 15 09:39:55 THY364 CEF:0\|Thycotic Software\|Password Reset
-Server\|4.1.000001\|10007\|USER - START RESET\|2\|msg=[PasswordResetServer]
-Event: [User] Action: [Start Reset] By User:
-test.thycotic.com\\\\THYCOTICTESTUSER Item Name:
-test.thycotic.com\\\\THYCOTICTESTUSER Details THYCOTICTESTUSER suid=173
-suser=test.thycotic.com\\\\THYCOTICTESTUSER cs4= duser=
-test.thycotic.com\\\\THYCOTICTESTUSER duid=173 fname=
-test.thycotic.com\\\\THYCOTICTESTUSER fileType=User fileId=173 src=::1 rt=May 15
-2015 09:39:55
-```
-
-### Example Event 2
-
-In this event, an administrator has edited a report.
-
-```
-May 15 09:29:12 THY364 CEF:0\|Thycotic Software\|Password Reset
-Server\|4.1.000001\|10003\|REPORT - REPORT_EDIT\|2\|msg=[PasswordResetServer]
-Event: [Report] Action: [Report Edit] By User: admin Details User Param suid=1
-suser=admin cs4= src=::1 rt=May 15 2015 09:29:12
-```
