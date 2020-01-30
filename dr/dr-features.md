@@ -1,4 +1,4 @@
-[title]: # (Password Reset Server Disaster Recovery Features)
+[title]: # (Features)
 [tags]: # (disaster recovery, dr, features)
 [priority]: # (701)
 

@@ -1,4 +1,4 @@
-[title]: # (Disaster Recovery Scenarios)
+[title]: # (Scenarios)
 [tags]: # (disaster recovery, dr, scenarios)
 [priority]: # (704)
 
