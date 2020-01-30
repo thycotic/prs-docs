@@ -1,6 +1,6 @@
 [title]: # (Enrolling)
 [tags]: # (enroll)
-[priority]: # (501)
+[priority]: # (1)
 
 # Enrolling
 
