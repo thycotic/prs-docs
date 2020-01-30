@@ -1,6 +1,6 @@
 [title]: # (Installing ASP.Net and .NET Framework)
-[tags]: # (asp.net)
-[priority]: # (3)
+[tags]: # (asp.net, .net framework)
+[priority]: # (1)
 
 # Installing ASP.NET 4.5 and the .NET Framework 4.5.1 / 4.5.2
 

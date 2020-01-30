@@ -1,6 +1,6 @@
 [title]: # (Completing Password Reset Server installation from the website)
-[tags]: # (website, install)
-[priority]: # (1)
+[tags]: # (welcome)
+[priority]: # (6)
 
 # Completing Password Reset Server installation from the website
 

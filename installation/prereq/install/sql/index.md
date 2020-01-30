@@ -1,6 +1,6 @@
 [title]: # (Installing and Configuring Microsoft SQL Server)
-[tags]: # (sql)
-[priority]: # (4)
+[tags]: # (welcome)
+[priority]: # (1)
 
 # Installing and Configuring Microsoft SQL Server
 

@@ -1,6 +1,6 @@
 [title]: # (Installing IIS)
-[tags]: # (iis)
-[priority]: # (2)
+[tags]: # (install, iis)
+[priority]: # (1)
 
 # Installing IIS
 
