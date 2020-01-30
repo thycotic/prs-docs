@@ -1,4 +1,4 @@
-[title]: # (Disaster Recovery Summary)
+[title]: # (Summary)
 [tags]: # (disaster recovery, dr)
 [priority]: # (705)
 

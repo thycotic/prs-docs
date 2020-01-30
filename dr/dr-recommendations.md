@@ -1,4 +1,4 @@
-[title]: # (Disaster Recovery Recommendations)
+[title]: # (Recommendations)
 [tags]: # (disaster recovery, dr, recommendations)
 [priority]: # (703)
 

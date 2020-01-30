@@ -1,4 +1,4 @@
-[title]: # (Maintaining Password Reset Server in a Disaster)
+[title]: # (Maintaining PRS in a Disaster)
 [tags]: # (disaster recovery, dr, maintenance)
 [priority]: # (702)
 
