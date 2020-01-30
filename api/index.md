@@ -1,5 +1,5 @@
 [title]: # (API Guide)
-[tags]: # (welcome)
+[tags]: # (api)
 [priority]: # (900)
 
 # API Guide
