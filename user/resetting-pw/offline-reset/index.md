@@ -1,5 +1,5 @@
 [title]: # (Offline Reset)
-[tags]: # (reset, password)
+[tags]: # (offline, reset, password)
 [priority]: # (4)
 
 # Offline Reset

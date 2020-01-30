@@ -1,5 +1,5 @@
 [title]: # (User Information)
-[tags]: # (enroll)
+[tags]: # (enroll, user info)
 [priority]: # (2)
 
 # User Information

@@ -1,5 +1,5 @@
 [title]: # (Confirmation)
-[tags]: # (enroll)
+[tags]: # (enroll, confirm)
 [priority]: # (4)
 
 # Confirmation

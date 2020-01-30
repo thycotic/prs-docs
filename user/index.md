@@ -18,4 +18,4 @@ This section includes information on how a user can enroll and change their pass
 * [Getting Started](resetting-pw/reset-getting-started/index.md)
 * [Answering Security Questions](resetting-pw/security-questions/index.md)
 * [Confirmation](resetting-pw/reset-confirmation/index.md)
-* [Offline Reset](resetting/offline-reset/index.md)
+* [Offline Reset](resetting-pw/offline-reset/index.md)
