@@ -8,11 +8,13 @@
 
 - One of the following operating systems:
 
-    - Windows 8 or 8.1 <sup>**1**</sup>
+    - Windows 8 or 8.1
 
-    - Window Server 2012 or 2012 R2 <sup>**2**</sup> 
+       **Note:** Windows 8 and 8.1 are only supported for testing environments. Microsoft does not support either of these operating systems being used as a production server environment.
 
-        
+    - Window Server 2012 or 2012 R2
+
+      **Note:** Both 32-bit and 64-bit editions of Windows Server are supported. You must install the proper version of the .NET Framework to support 64-bit.
 
 - Microsoft SQL Server 2005, 2008 or 2012, including R2 (any edition)
 
@@ -24,14 +26,10 @@
 
 ## Domain Account Requirements
 
-Each domain will need a domain account to synchronize the users and reset passwords. See the [Appendix](..\appendix\index.md) for instructions to set up the domain account.
+Each domain will need a domain account to synchronize the users and reset passwords. See the [Appendix](../appendix/index.md) for instructions to set up the domain account.
 
 ## Additional Recommendations
 
-- Use an [SSL certificate](..\appendix\index.md#sslcertificate) for Password Reset Server.
+- Use an [SSL certificate](../appendix/index.md#ssl_certificate) for Password Reset Server.
 
 - Run [Microsoft Update](http://update.microsoft.com/) on your server to make sure all components are up to date.
-
-<sup>**1**</sup> Windows 8 and 8.1 are only supported for testing environments. Microsoft does not support either of these operating systems being used as a production server environment.
-
-<sup>**2**</sup> Both 32-bit and 64-bit editions of Windows Server are supported. You must install the proper version of the .NET Framework to support 64-bit.

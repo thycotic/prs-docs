@@ -42,33 +42,33 @@ You must be a member of the Domain Admins group to perform these steps.
 
 6. Check the Password never expires and User cannot change password boxes (Figure B).
 
-We recommended choosing “Password never expires” because if the password expires and it is not changed, Password Reset Server will not be able to change passwords for domain users.
+   We recommended choosing “Password never expires” because if the password expires and it is not changed, Password Reset Server will not be able to change passwords for domain users.
 
 7. Click Next and Finish.
 
-![](images/appendix-1.png)
+   ![](images/appendix-1.png)
 
-*Figure A – Configure New User Account*
+   *Figure A – Configure New User Account*
 
-![](images/appendix-2.png)
+   ![](images/appendix-2.png)
 
-*Figure B – Configure New User Password*
+   *Figure B – Configure New User Password*
 
-The domain account used to synchronize and reset passwords for the domain must have the following permissions to reset a user's account: Change Password, Reset Password, Write lockoutTime*,* Write pwdLastSet.
+   The domain account used to synchronize and reset passwords for the domain must have the following permissions to reset a user's account: Change Password, Reset Password, Write lockoutTime*,* Write pwdLastSet.
 
 8. Configure the Active Directory Users and Computers to display Advanced Features by clicking View from the top menu, and then Advanced Features (Figure C).
 
 9. Select the top level domain node, right click, and select Delegate Control (Figure D).
 
-If desired, you may apply the permissions to specific Organizational Units instead of the entire domain. These actions must be repeated for each Organizational Unit.
+   If desired, you may apply the permissions to specific Organizational Units instead of the entire domain. These actions must be repeated for each Organizational Unit.
 
-![](images/appendix-3.png)
+   ![](images/appendix-3.png)
 
-*Figure C – View Advanced Features*
+   *Figure C – View Advanced Features*
 
-![](images/appendix-4.png)
+   ![](images/appendix-4.png)
 
-*Figure D – Delegate Control*
+   *Figure D – Delegate Control*
 
 10. Once the Delegation of Control Wizard window opens, click Next.
 
@@ -76,45 +76,45 @@ If desired, you may apply the permissions to specific Organizational Units inste
 
 12. Select the user created above (Figures E,F). Click Next.
 
-![](images/appendix-5.png)
+      ![](images/appendix-5.png)
 
-*Figure E – Select PRS Admin User*
+      *Figure E – Select PRS Admin User*
 
-![](images/appendix-6.png)
+      ![](images/appendix-6.png)
 
-*Figure F – Confirm Selection of PRS Admin User*
+      *Figure F – Confirm Selection of PRS Admin User*
 
 13. In the next window, select the “Create a custom task…” bubble (Figure G). Click Next.
 
 14. For Delegate control of, select the “Only the following…: option and check the User Objects box at the very bottom (Figure H). Click Next.
 
-![](images/appendix-7.png)
+      ![](images/appendix-7.png)
 
-*Figure G – Create a custom task to delegate*
+      *Figure G – Create a custom task to delegate*
 
-![](images/appendix-8.png)
+      ![](images/appendix-8.png)
 
-*Figure H – Select User Objects*
+      *Figure H – Select User Objects*
 
 15. Leave the General box checked, and select the “Read All Properties,” “Change password,” and “Reset password” check boxes below (Figure I). **If you plan to allow users to update Active Directory attributes through Password Reset Server as well, you will also need to give this account “Write All Properties” or permission to write the specific attribute(s).** Click Next and Finish.
 
 16. Repeat steps 9 through 14, then check only the Property-specific box and check the “**Write lockoutTime**” (Figure J), “**Write pwdLastSet**” (Figure K), and “**Write userAccountControl**” (Figure L) boxes. Click Next and Finish.
 
-![](images/appendix-9.png)
+      ![](images/appendix-9.png)
 
-*Figure I – Delegate Change & Reset Password Permissions*
+      *Figure I – Delegate Change & Reset Password Permissions*
 
-![](images/appendix-10.png)
+      ![](images/appendix-10.png)
 
-*Figure J – Delegate Write lockoutTime Permission*
+      *Figure J – Delegate Write lockoutTime Permission*
 
-![](images/appendix-11.png)
+      ![](images/appendix-11.png)
 
-*Figure K – Delegate Write pwdLastSet Permission*
+      *Figure K – Delegate Write pwdLastSet Permission*
 
-![](images/appendix-12.png)
+      ![](images/appendix-12.png)
 
-*Figure L - Delegate Write userAccountControl Permission*
+      *Figure L - Delegate Write userAccountControl Permission*
 
 You can now use this account to reset passwords using Password Reset Server.
 

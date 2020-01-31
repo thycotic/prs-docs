@@ -34,15 +34,15 @@ Make sure you have the *required software* installed before attempting to setup 
 
 7. Click the Application Pools node, then highlight the application pool running Password Reset Server. Click Advanced Settings in the right pane. Under Process Model, set Identity to a Windows service account or leave the default ApplicationPoolIdentity (Figure 1.2).
 
-Windows 8 / Server 2012 will default the application pool to a virtual identity, ApplicationPoolIdentity. For easiest configuration, use either this or NETWORK SERVICE as the identity. For better security, you can specify your own Windows service account. See the *Appendix* for further information on using a virtual identity for Password Reset Server in IIS.
+   Windows 8 / Server 2012 will default the application pool to a virtual identity, ApplicationPoolIdentity. For easiest configuration, use either this or NETWORK SERVICE as the identity. For better security, you can specify your own Windows service account. See the *Appendix* for further information on using a virtual identity for Password Reset Server in IIS.
 
-![](images/manual-1.jpg)
+   ![](images/manual-1.jpg)
 
-*Figure 1.1 – Add Virtual Directory* 
+   *Figure 1.1 – Add Virtual Directory* 
 
-![](images/manual-2.jpg)
+   ![](images/manual-2.jpg)
 
-*Figure 1.2 – Convert to Application* 
+   *Figure 1.2 – Convert to Application* 
 
 8. Ensure that the Password Reset Server folder has the proper permissions by checking that the account running the application pool in IIS has Modify permissions on the folder where Password Reset Server is installed.
 
@@ -58,7 +58,7 @@ Password Reset Server is now ready to be installed. See *Completing Password Res
 
 4. Click the Application Pools node, then highlight the application pool running Password Reset Server. Click Advanced Settings in the right pane. Under Process Model, set Identity to a Windows service account or leave the default ApplicationPoolIdentity (Figure 1.2, see the previous page).
 
-Windows 8 / Server 2012 will default the application pool to a virtual identity, ApplicationPoolIdentity. For easiest configuration, use either this or NETWORK SERVICE as the identity. For better security, you can specify your own Windows service account. See the *Appendix* for further information on using a virtual identity for Password Reset Server in IIS.
+   Windows 8 / Server 2012 will default the application pool to a virtual identity, ApplicationPoolIdentity. For easiest configuration, use either this or NETWORK SERVICE as the identity. For better security, you can specify your own Windows service account. See the *Appendix* for further information on using a virtual identity for Password Reset Server in IIS.
 
 5. Ensure that the Password Reset Server folder has the proper permissions by checking that the account running the application pool in IIS has Modify permissions on the folder where Password Reset Server is installed.
 
@@ -78,9 +78,9 @@ It is recommended that you create a new application pool if you have other web a
 
 3. Set Managed Pipeline Mode to Classic. Click OK.
 
-![](images/manual-3.jpg)
+   ![](images/manual-3.jpg)
 
-*IIS Application Pool - Windows 8 IIS Application Pool - Windows 8.1*
+   *IIS Application Pool - Windows 8 IIS Application Pool - Windows 8.1*
 
 The Windows Server 2012 R2 and Windows 8.1 application pool window will appear slightly different than in Windows Server 2012 and Windows 8.
 
@@ -98,6 +98,6 @@ The Windows Server 2012 R2 and Windows 8.1 application pool window will appear s
 
 6. In the new window, change Application Pool to the one we just created.
 
-![](images/manual-4.jpg)
+   ![](images/manual-4.jpg)
 
-*Figure 2.1 – Specify Application Pool*
+   *Figure 2.1 – Specify Application Pool*
