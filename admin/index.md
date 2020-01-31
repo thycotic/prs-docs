@@ -1,3 +1,3 @@
-[title]: # (Admin Guide)
+[title]: # (User Guide)
 [tags]: # (welcome)
-[priority]: # (200)
+[priority]: # (300)
