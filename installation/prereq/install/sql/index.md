@@ -1,10 +1,10 @@
 [title]: # (Installing and Configuring Microsoft SQL Server)
-[tags]: # (welcome)
+[tags]: # (sql)
 [priority]: # (1)
 
 # Installing and Configuring Microsoft SQL Server
 
-We recommend using Microsoft SQL Server 2012 or 2008. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). See the [appendix](#microsoft-sql-server-2012-express-prerequisites) for details on software prerequisites.
+We recommend using Microsoft SQL Server 2012 or 2008. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). See the [appendix](.\appendix\index.md) for details on software prerequisites.
 
 If using SQL Server 2008, SQL Server 2008 SP1 should be installed immediately after the installation is complete to resolve compatibility issues with Windows 7 and Windows Server 2008 R2.
 
@@ -46,8 +46,7 @@ There are several editions of Microsoft SQL Server 2012 Express. We recommend do
     required if you intend on using a SQL Server account to authenticate
     Password Reset Server to your SQL Server. If you are doing an evaluation and
     using the Password Reset Server MSI, we recommend Mixed Mode with a SQL
-    Authentication account. See [Creating the SQL Server
-    User](#adding-a-sql-server-user) (below) for instructions.
+    Authentication account. See [Creating the SQL Server User](#Adding a SQL Server User) (below) for instructions.
 
 - *Windows Mode (recommended for best security)* - This will prevent SQL
     Server account authentication and requires a Windows Service account to run

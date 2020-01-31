@@ -1,4 +1,4 @@
-[title]: # (Completing Password Reset Server installation from the website)
+[title]: # (Completing PRS installation from the website)
 [tags]: # (website, install)
 [priority]: # (1)
 
