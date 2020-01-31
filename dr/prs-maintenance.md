@@ -38,5 +38,5 @@ Password Reset Server supports Synchronous/Asynchronous Microsoft SQL Mirroring.
 
 Microsoft TechNet articles concerning Database Mirroring in Microsoft SQL Server 2005:
 
-- [http: /technet.microsoft.com/en-us/library/cc917681.aspx](http://technet.microsoft.com/en-us/library/cc917681.aspx)
+- [http://technet.microsoft.com/en-us/library/cc917681.aspx](http://technet.microsoft.com/en-us/library/cc917681.aspx)
 - [http://technet.microsoft.com/en-us/library/cc917680.aspx](http://technet.microsoft.com/en-us/library/cc917680.aspx)
