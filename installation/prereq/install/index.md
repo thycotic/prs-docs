@@ -1,6 +1,6 @@
 [title]: # (Installation Process)
 [tags]: # (install)
-[priority]: # (1)
+[priority]: # (103)
 
 # Beginning the Installation Process
 
