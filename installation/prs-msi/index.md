@@ -1,4 +1,4 @@
-[title]: # (Password Reset Server MSI)
+[title]: # (PRS MSI)
 [tags]: # (msi)
 [priority]: # (1)
 
