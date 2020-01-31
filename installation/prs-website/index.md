@@ -1,6 +1,6 @@
 [title]: # (Completing PRS installation from the website)
 [tags]: # (website, install)
-[priority]: # (1)
+[priority]: # (108)
 
 # Completing Password Reset Server installation from the website
 

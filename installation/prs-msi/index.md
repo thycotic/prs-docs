@@ -1,6 +1,6 @@
 [title]: # (PRS MSI)
 [tags]: # (msi)
-[priority]: # (1)
+[priority]: # (107)
 
 # Password Reset Server MSI
 
