@@ -31,4 +31,4 @@ b3bd8649 4049e201 c4bd5155 f31ecb7a 3c860684 3c4cc8df cab7da11 c8ae5045
 Password Reset Server can be configured to run SSL certificates. It is strongly recommended that
 Password Reset Server installations run using SSL. Not using SSL will significantly reduce the security of
 the contents of Password Reset Server since browsers viewing the site will not be using an encrypted
-connection.
+connection. 
