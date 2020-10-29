@@ -1,16 +1,15 @@
-[title]: # (Install Process)
-[tags]: # (welcome)
-[priority]: # (1)
+[title]: # (Installation Process)
+[tags]: # (install)
+[priority]: # (103)
+
 # Beginning the Installation Process
 
 Components should be installed in the following order:
 
-1.  [Internet Information Services (IIS)](#installing-iis)
+1. [Internet Information Services (IIS)](iis/index.md)
 
-2.  [.NET Framework 4.5.1 /
-    4.5.2](#installing-asp.net-4.5-and-the-.net-framework-4.5.1-4.5.2) (Windows
-    8 / Server 2012 Only)
+2. [.NET Framework 4.5.1 / 4.5.2](aspnet/index.md) (Windows 8 / Server 2012 Only)
 
-3.  [SQL Server](#installing-and-configuring-microsoft-sql-server)
+3. [SQL Server](sql/index.md)
 
-4.  [Password Reset Server](#password-reset-server-msi)
+4. [Password Reset Server](../../prs-msi/index.md)
