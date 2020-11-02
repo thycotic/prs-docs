@@ -33,13 +33,13 @@ To edit a role, click the name of the role on the role overview screen. When edi
 
 To assign a role to users or groups, begin by clicking the Administration link on the top navigation bar and then clicking Roles, then the Assign Roles button.
 
-__By Role__
+### By Role
 
 If you have a specific role you want to assign users and groups to, click the __By Role__ tab and select the role you would like to assign users and groups to. Modify the assigned users or groups by clicking them, then the left or right arrows. Click __Save Changes__ when you are complete.
 
    ![Role Assignment](assignment.png)
 
-__By User or Group__
+### By User or Group
  If you have a specific user or group you would like to assign roles to, click the __By User or Group tab__ and select the user or group you would like to assign users and groups to. Modify the assigned roles by clicking them, then the left or right arrows. Click __Save Changes__ when you are complete.
 
    ![By User or Group](user.png)
