@@ -1,6 +1,6 @@
 [title]: # (Manual Installation)
 [tags]: # (manual, install)
-[priority]: # (109)
+[priority]: # (110)
 
 # Manual Installation (No MSI)
 
