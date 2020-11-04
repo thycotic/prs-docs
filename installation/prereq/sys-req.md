@@ -1,9 +1,9 @@
-[title]: # (Prerequisites)
+[title]: # (SQL Server 2012)
 [tags]: # (requirements)
 [priority]: # (102)
-# SQL Server 2012
+# SQL Server 2012 Express Prerequisites
 
-SQL Server 2012 Express Prerequisites
+SQL Server 2012 Express requires some software to be installed before it can be installed.
 
 1. Windows PowerShell 2.0.
 
@@ -43,11 +43,11 @@ You must be a member of the Domain Admins group to perform these steps.
 
 7. Click Next and Finish.
 
-   ![](images/appendix-1.png)
+   ![Next](images/appendix-1.png)
 
    *Figure A – Configure New User Account*
 
-   ![](images/appendix-2.png)
+   ![Configure New](images/appendix-2.png)
 
    *Figure B – Configure New User Password*
 
@@ -59,11 +59,11 @@ You must be a member of the Domain Admins group to perform these steps.
 
    If desired, you may apply the permissions to specific Organizational Units instead of the entire domain. These actions must be repeated for each Organizational Unit.
 
-   ![](images/appendix-3.png)
+   ![Figure C](images/appendix-3.png)
 
    *Figure C – View Advanced Features*
 
-   ![](images/appendix-4.png)
+   ![Figure D](images/appendix-4.png)
 
    *Figure D – Delegate Control*
 
@@ -73,11 +73,11 @@ You must be a member of the Domain Admins group to perform these steps.
 
 12. Select the user created above (Figures E,F). Click Next.
 
-      ![](images/appendix-5.png)
+      ![Figure E](images/appendix-5.png)
 
       *Figure E – Select PRS Admin User*
 
-      ![](images/appendix-6.png)
+      ![Figure F](images/appendix-6.png)
 
       *Figure F – Confirm Selection of PRS Admin User*
 
@@ -85,11 +85,11 @@ You must be a member of the Domain Admins group to perform these steps.
 
 14. For Delegate control of, select the “Only the following…: option and check the User Objects box at the very bottom (Figure H). Click Next.
 
-      ![](images/appendix-7.png)
+      ![Figure G](images/appendix-7.png)
 
       *Figure G – Create a custom task to delegate*
 
-      ![](images/appendix-8.png)
+      ![Figure H](images/appendix-8.png)
 
       *Figure H – Select User Objects*
 
@@ -97,19 +97,19 @@ You must be a member of the Domain Admins group to perform these steps.
 
 16. Repeat steps 9 through 14, then check only the Property-specific box and check the “**Write lockoutTime**” (Figure J), “**Write pwdLastSet**” (Figure K), and “**Write userAccountControl**” (Figure L) boxes. Click Next and Finish.
 
-      ![](images/appendix-9.png)
+      ![Figure I](images/appendix-9.png)
 
       *Figure I – Delegate Change & Reset Password Permissions*
 
-      ![](images/appendix-10.png)
+      ![Figure J](images/appendix-10.png)
 
       *Figure J – Delegate Write lockoutTime Permission*
 
-      ![](images/appendix-11.png)
+      ![Figure K](images/appendix-11.png)
 
       *Figure K – Delegate Write pwdLastSet Permission*
 
-      ![](images/appendix-12.png)
+      ![Figure L](images/appendix-12.png)
 
       *Figure L - Delegate Write userAccountControl Permission*
 
