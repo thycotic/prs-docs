@@ -1,11 +1,11 @@
 [title]: # (Prerequisites)
 [tags]: # (requirements)
 [priority]: # (102)
-# Prerequisites
+# SQL Server 2012
 
-## SQL Server 2012 Express Prerequisites
+## Prerequisites
 
-SQL Server 2012 Express requires some software to be installed before it can be installed.
+### SQL Server 2012 Express requires some software to be installed before it can be installed.
 
 1. Windows PowerShell 2.0.
 
