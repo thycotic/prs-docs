@@ -1,7 +1,7 @@
 [title]: # (Upgrade)
 [tags]: # (upgrade)
 [priority]: # (109)
-## Upgrading Password Reset Server 
+# Upgrading Password Reset Server 
 
 This does not impact a fresh install and the following steps should only be used for upgrade purposes. Some servers have their file upload limits set too low. Before upgrading, be sure to check your IIS server and web application settings to ensure the upgrade process completes.
 
@@ -41,7 +41,7 @@ When upgrading from older version of Password Reset Server it is recommended to 
 
 If Password Reset Server is already installed in your environment and you attempt to re-run the installer, the installer process will try to detect if PRS is already configured and, if detected, will prompt you to perform the upgrade using the page above.
 
-   ![tag](images/PrsInstaller_09.png)
+   ![tag](images/prsinstaller_09.png)
 
 # Manual Upgrade
 
