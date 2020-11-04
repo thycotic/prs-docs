@@ -5,7 +5,7 @@
 
 This does not impact a fresh install and the following steps should only be used for upgrade purposes. Some servers have their file upload limits set too low. Before upgrading, be sure to check your IIS server and web application settings to ensure the upgrade process completes.
 
-### Steps before Upgrading
+## Steps before Upgrading
 
 1. Stop the IIS Server
 1. Go to the PRS install directory default path is `C:\inetpub\wwwroot\PasswordResetServer`. This is root of where Password Reset Server is installed.
@@ -43,7 +43,7 @@ If Password Reset Server is already installed in your environment and you attemp
 
    ![tag](images/prsinstaller_09.png)
 
-# Manual Upgrade
+## Manual Upgrade
 
 Password Reset Server periodically polls our update server to detect for updates. However, if your Password Reset Server is on an internal network that does not have outbound access or goes through a proxy, it will not be able to perform updates.
 
