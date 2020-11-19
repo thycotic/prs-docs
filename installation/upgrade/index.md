@@ -41,7 +41,7 @@ When upgrading from older version of Password Reset Server it is recommended to 
 
 If Password Reset Server is already installed in your environment and you attempt to re-run the installer, the installer process will try to detect if PRS is already configured and, if detected, will prompt you to perform the upgrade using the page above.
 
-   ![tag](images/prsinstaller_09.png)
+   ![tag](images/prsinstaller_10.png)
 
 ## Manual Upgrade
 
