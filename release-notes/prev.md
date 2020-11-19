@@ -3,9 +3,18 @@
 [priority]: # (1002)
 # Password Reset Server Release Notes for 5.1.000006 and Previous 
 
-## Password Reset Server Version 5.1.000005 (Fall Maintenance Release)
+## Password Reset Server Version 5.1.000006 (Fall Maintenance Release)
 
 ### Upgrade Notes
+
+Password Reset Server Version 5.1.000006
+September 9, 2020
+
+__Security:__
+
+* Fixed a vulnerability in GINA client which could lead to remote code execution and was only present if the attacker had control over network communications.
+* Fixed a vulnerability in GINA client which could lead to remote code execution. Security Issue Discovered by:
+   * __Barrett Adams__ (Lead Researcher) of Specter Ops and __Rick Romo__, __Angel Flores__, and __Marcus Sailler__ of Capital Group Companies.
 
 __September 24, 2019__ 
 
