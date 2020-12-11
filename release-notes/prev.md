@@ -1,6 +1,6 @@
 [title]: # (5.1.000006 and Previous Release Notes)
 [tags]: # (release notes)
-[priority]: # (1002)
+[priority]: # (1003)
 # Password Reset Server Release Notes for 5.1.000006 and Previous 
 
 ## Password Reset Server Version 5.1.000006 (Fall Maintenance Release)
