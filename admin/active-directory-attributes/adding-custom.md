@@ -25,7 +25,7 @@ Reset Server when configuring the attribute as an answer source. The __AD Attrib
 
 __Client Password Validation__ 
 
-For Password Reset Server users, password requirements are typically managed by Active Directory Group Policy. If the password the user enters does not comply with the AD Group Policy, the user receives a general error and the reset request is not sent. Custom Client Password Validation allows administrators to set password requirements beyond what Active Directory Group Policy can enforce.
+For Password Reset Server users, password requirements are typically managed by Active Directory Group Policy. If the password the user enters does not comply with the AD Group Policy, the user receives a general error and the reset request is not sent. Custom Client Password Validation allows administrators to set password requirements beyond what AD Group Policy can enforce.
 
 *Implementation*
 
