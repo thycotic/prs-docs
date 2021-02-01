@@ -68,4 +68,4 @@ _**Please note**: You must add IIS as a feature in Windows Server. See the infor
 * Windows Login Integration (GINA Hook) is compatible on Windows XP through Windows 10.
 * You can run Password Reset Server on the same machine as other applications (Password Reset Server will require sufficient RAM and CPU to operate normally).
 * For maximum security, you should install the application on dedicated systems or at least systems with applications with the same level of security/sensitivity.  Access to these systems should then be restricted.  While all sensitive data in Password Reset Server is either securely hashed or encrypted, it is a security best practice to limit any opportunities for foul play.
-* Password Reset Server 3.3.000000 and higher requires the .NET Framework 4.5.1 to be installed on the web server prior to installation or upgrade. The .NET Framework 4.5.1 can be installed on Windows Server 2008 or later. See the following article for information on installing .NET 4.5.1 by clicking here.
+* Password Reset Server 3.3.000000 and higher requires the .NET Framework 4.5.1 to be installed on the web server prior to installation or upgrade. 
