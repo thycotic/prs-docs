@@ -3,7 +3,7 @@
 [priority]: # (108)
 # Installation
 
-The follow covers the steps for the Password Reset Server installer for versions 5.2.0 and later.
+The following covers the steps for the Password Reset Server installer for versions 5.2.0 and later.
 Ensure that IIS is enabled on the system you are installing Password Reset Server on.
 
 1. Download the installer ZIP file and extract the contents for the MSI file.
