@@ -25,7 +25,7 @@ To add a role, click the __Administration__ link on the top navigation bar and s
 
 Give your role a name. You can then move permissions between __Assigned__ and __Unassigned__ by selecting the item and clicking the single arrow left or right, or moving all items to the left or right by clicking the double arrow. Finally, click __Save__.
 
-__Tip__ You can move multiple users or groups at once by holding the Control Key (Ctrl) and clicking more than one in the list, then clicking the left or right arrow.
+__Tip__ You can move multiple users or groups at once by holding the Control Key (Ctrl) and clicking more than one in the list, the clicking the left or right arrow.
 
 To edit a role, click the name of the role on the role overview screen. When editing a role, you can change the name, assign or un-assign permissions, or disable the role. A role cannot be deleted once created.
 

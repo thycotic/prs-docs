@@ -50,7 +50,7 @@ _**Please Note**: Edition must be SQL Server Express or higher._
 * IIS 7
 * IIS 8
 
-_**Please note**: You must add IIS as a feature in Windows Server. See the information [here](https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831475(v=ws.11)?redirectedfrom=MSDN "Install IIS")_.
+_**Please note**: You must add IIS as a feature in Windows Server. See the information [here](hhttps://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/hh831475(v=ws.11)?redirectedfrom=MSDN "Install IIS")_.
 
 ### Microsoft .NET Framework
 * .NET 4.5.1
