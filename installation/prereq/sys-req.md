@@ -13,6 +13,8 @@ SQL Server 2012 Express requires some software to be installed before it can be 
 
 Only the Express Edition requires these components to be installed separately. If you are installing another edition of SQL, such as Standard or Enterprise, these components will be installed for you.
 
+**Please Note**: Secret Server and Password Reset Server require SQL_Latin1_General_CP1_CI_AS to be the default collation for Microsoft SQL Server and its database. Using a different default collation will cause the installation to fail. See Microsoft SQL [collation requirements](https://docs.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-ver15) and check your server collation settings before upgrading.
+
 ## Installing PowerShell
 
 Windows PowerShell is included by default in Windows 8, Windows 8.1, and Windows Server 2012 / R2.
