@@ -24,9 +24,8 @@ Password Reset Server natively supports local and network backups. By configurin
 
 [Backup Configuration File Path Settings](https://updates.thycotic.net/link.ashx?BackupDatabaseFilePath)
 
-Please refer to the following documentation for Manual Backup procedures:
+[Manual Backup Procedures](https://docs.thycotic.com/prs/5.2.0/admin/back-up-recovery/index.md)
 
-[Manually Backup Password Reset Server](https://updates.thycotic.net/link.ashx?PRSManualBackup)
 
 ## Restoring from Backup
 
@@ -36,7 +35,4 @@ Restoring Password Reset Server’s web application folder is as simple as copyi
 
 Password Reset Server supports Synchronous/Asynchronous Microsoft SQL Mirroring. Mirroring database instances is an important part of any high-availability Business Continuity Plan. Adding geographic redundancy to this plan is recommended for customers with multiple sites, for that added layer of protection. To use a mirrored database with Password Reset Server, ensure that the Failover Partner is set in the database configuration installation step.
 
-Microsoft TechNet articles concerning Database Mirroring in Microsoft SQL Server 2005:
-
-- [http://technet.microsoft.com/en-us/library/cc917681.aspx](http://technet.microsoft.com/en-us/library/cc917681.aspx)
-- [http://technet.microsoft.com/en-us/library/cc917680.aspx](http://technet.microsoft.com/en-us/library/cc917680.aspx)
+See the Microsoft documentation [here](https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15).
