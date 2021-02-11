@@ -4,7 +4,7 @@
 
 # Installing and Configuring Microsoft SQL Server
 
-We recommend using Microsoft SQL Server 2012 or 2008. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). See the [appendix](../../../appendix/index.md) for details on software prerequisites.
+We recommend using Microsoft SQL Server 2012 or 2008. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). 
 
 If using SQL Server 2008, SQL Server 2008 SP1 should be installed immediately after the installation is complete to resolve compatibility issues with Windows 7 and Windows Server 2008 R2.
 
