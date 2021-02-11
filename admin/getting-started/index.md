@@ -7,7 +7,7 @@
 
 Password Reset Server is distributed as an MSI or as a ZIP file of the web application. To install Password
 Reset Server and the software it depends on (such as SQL Server and Internet Information Services)
-please see our [Installation Guide](../installation/index.md).
+please see [Installation](../../installation/install/index.md).
 
 ## ACCESSING PASSWORD RESET SERVER
 
