@@ -151,7 +151,7 @@ A certificate can be obtained from various companies such as [Thawte](http://www
 
 ## Domain Account Requirements
 
-Each domain will need a domain account to synchronize the users and reset passwords. See the [Appendix](../../../../sys-req.md) for instructions to set up the domain account.
+Each domain will need a domain account to synchronize the users and reset passwords. See [Creating a domain account to reset passwords](#creating_a_domain_account_to_reset_passwords) for instructions to set up the domain account.
 
 ## Additional Recommendations
 
