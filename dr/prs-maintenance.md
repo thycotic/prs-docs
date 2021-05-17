@@ -24,8 +24,7 @@ Password Reset Server natively supports local and network backups. By configurin
 
 [Backup Configuration File Path Settings](https://updates.thycotic.net/link.ashx?BackupDatabaseFilePath)
 
-[Manual Backup Procedures](../../admin/back-up-recovery/index.md)
-
+[Manual Backup Procedures](../admin/back-up-recovery/index.md)
 
 ## Restoring from Backup
 
