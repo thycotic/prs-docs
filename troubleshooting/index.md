@@ -1,14 +1,16 @@
 [title]: # (Troubleshooting)
 [tags]: # (Troubleshooting)
 [priority]: # (950)
+
 # Troubleshooting
 
 ## SQL Server Encryption
+
 Administrators can enable end-to-end encryption with the SQL database by using an Encrypted connection. This is a feature that is built into Microsoft SQL Server and Password Reset Server supports. It can be enabled in the 2nd step of the installer by checking the "Enable Encryption" check box.
 
 SQL Server must be pre-configured to support encryption. This Microsoft TechNet article explains how to configure the SQL Server environment for encryption:
 
-http://technet.microsoft.com/en-us/library/ms191192.aspx
+<http://technet.microsoft.com/en-us/library/ms191192.aspx>
 
 ## SQL Login Fails Suddenly
 
@@ -25,7 +27,7 @@ This sudden failure may be because the "Enforce Password Expiration" setting is 
 ### Performance issues
 
 Note that using this setting can adversely affect performance.
-http://technet.microsoft.com/en-us/library/ms189067.aspx
+<http://technet.microsoft.com/en-us/library/ms189067.aspx>
 
 ## Backup Configuration File Path Settings
 
@@ -42,11 +44,12 @@ If you are getting an error stating "Cannot open backup device. Operating system
 If you see an error similar to below, then the machine running Password Reset Server is having trouble using the Password Reset Server database:
 
 This error is caused when Password Reset Server tries to a run a database query, but the query times out before completion. To diagnose the issue, please follow these steps:
- 
-   * Check the task manager on the machine running your Password Reset Server database. Make sure no process is taking up too much ram or CPU power. If it is, stop the process or move the Password Reset Server database to another machine.
 
-   * Check the hard drive space on the machine running your Password Reset Server database. Make sure there is at least 3 gigabytes of free space.
-   * Try restarting the SQL Service.
+* Check the task manager on the machine running your Password Reset Server database. Make sure no process is taking up too much ram or CPU power. If it is, stop the process or move the Password Reset Server database to another machine.
+
+* Check the hard drive space on the machine running your Password Reset Server database. Make sure there is at least 3 gigabytes of free space.
+
+* Try restarting the SQL Service.
 
 ## Setting up Password Reset Server for disaster recovery
 
@@ -58,26 +61,25 @@ Click [here](https://my.thycotic.com/articles/secretserver/SQLServerMirroringAnd
 
 ### Windows 7
 
-   * Run services.msc and ensure Windows "Management Instrumentation" service Startup Type is set to Automatic.
+* Run services.msc and ensure Windows "Management Instrumentation" service Startup Type is set to Automatic.
 
-   * In Firewall settings, click on the "Advanced settings" link. For the Inbound Rules, ensure "Windows Management Instrumentation (WMI-In)" is Enabled and Allowed for the Profile called Domain.
+* In Firewall settings, click on the "Advanced settings" link. For the Inbound Rules, ensure "Windows Management Instrumentation (WMI-In)" is Enabled and Allowed for the Profile called Domain.
 
 ### Vista
 
-   * Run services.msc and ensure "Windows Management Instrumentation" service Startup Type is set to Automatic.
+* Run services.msc and ensure "Windows Management Instrumentation" service Startup Type is set to Automatic.
 
-   * In Firewall settings, click on the "Change Settings" link. In the Windows Firewall Settings dialog, click the Exceptions tab. Enable the "Windows Management Instrumentation (WMI)" exception.
+* In Firewall settings, click on the "Change Settings" link. In the Windows Firewall Settings dialog, click the Exceptions tab. Enable the "Windows Management Instrumentation (WMI)" exception.
 
 ### Windows XP
 
-   * Run services.msc and ensure "Windows Management Instrumentation" service Startup Type is set to Automatic.
+* Run services.msc and ensure "Windows Management Instrumentation" service Startup Type is set to Automatic.
 
-   * From the command prompt, run the following command: "netsh firewall set service RemoteAdmin enable"
+* From the command prompt, run the following command: "netsh firewall set service RemoteAdmin enable"
 
-   * From the command prompt, run the following command: "netsh firewall add portopening protocol=tcp port=135 name=DCOM_TCP135"
+* From the command prompt, run the following command: "netsh firewall add portopening protocol=tcp port=135 name=DCOM_TCP135"
 
-   * From the command prompt, run the following command: "netsh firewall set portopening tcp 445 smb enable"
-
+* From the command prompt, run the following command: "netsh firewall set portopening tcp 445 smb enable"
 
 ## Why are some user email addresses blank?
 
@@ -147,8 +149,9 @@ This can also occur if other processes on the server are using most of the ram.
 
 To troubleshoot the problem, follow these steps:
 
-   * Connect to the machine running your web application and open up task manager (start->run->taskmgr). Make sure other processes are not using up most of the RAM on the server. If they are, close them, migrate your application to another machine, or increase the amount of RAM available. Note that ASP .NET applications will appear as the w3wp.exe process.
-   * If most of the RAM is not being used, your application pool may be limited to a small amount of memory. You can increase this amount by opening the IIS manager (start->run->inetmgr), expanding the server node on the left pane, clicking on "Application Pools", right clicking on the application pool running your application, selecting "Advanced Settings", and changing the Private Memory Limit and Virtual Memory Limit in the recycling section.
+* Connect to the machine running your web application and open up task manager (start->run->taskmgr). Make sure other processes are not using up most of the RAM on the server. If they are, close them, migrate your application to another machine, or increase the amount of RAM available. Note that ASP .NET applications will appear as the w3wp.exe process.
+
+* If most of the RAM is not being used, your application pool may be limited to a small amount of memory. You can increase this amount by opening the IIS manager (start->run->inetmgr), expanding the server node on the left pane, clicking on "Application Pools", right clicking on the application pool running your application, selecting "Advanced Settings", and changing the Private Memory Limit and Virtual Memory Limit in the recycling section.
 
 ## HTTP Error 404 or 404.17 - Not Found When Upgrading .NET Framework Version
 
