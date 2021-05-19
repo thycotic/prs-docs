@@ -6,7 +6,7 @@
 
 If you are knowledgeable of IIS and would prefer to manually install the website without using the MSI, you can follow these instructions.
 
-[Download](https://updates.thycotic.net/links.ashx?prsofflinefile) the latest version of Password Reset Server. You can choose to download a ZIP file that contains the Password Reset Server files. Use this ZIP file for the instructions below.
+To download the installation file for the newest version of Password Reset Server, go to our [Support Community](https://thycotic.force.com/support/s/) page, log in, and click the Password Reset Server panel. Follow the prompts to navigate to the new download page, where you can download the **Application Files** (zip) for manual installation. Use this ZIP file for the instructions below.
 
 Password Reset Server can be installed in a few different ways:
 
@@ -26,7 +26,7 @@ Make sure you have the *required software* installed before attempting to setup 
 
 3. Highlight the Default Web Site, right-click it and select Add Virtual Directory (see Figure 1.1 below).
 
-4. Select an alias for your Password Reset Server. The alias is what will be appended to the website. For instance, *http://myserver/PasswordResetServer*.
+4. Select an alias for your Password Reset Server. The alias is what will be appended to the website. For instance, *<http://myserver/PasswordResetServer>*.
 
 5. Select the physical directory for where you unzipped Password Reset Server.
 
@@ -36,13 +36,13 @@ Make sure you have the *required software* installed before attempting to setup 
 
    Windows 8 / Server 2012 will default the application pool to a virtual identity, ApplicationPoolIdentity. For easiest configuration, use either this or NETWORK SERVICE as the identity. For better security, you can specify your own Windows service account. See the *Appendix* for further information on using a virtual identity for Password Reset Server in IIS.
 
-   ![](images/manual-1.jpg)
+   ![manual1](images/manual-1.jpg)
 
-   *Figure 1.1 – Add Virtual Directory* 
+   *Figure 1.1 – Add Virtual Directory*
 
-   ![](images/manual-2.jpg)
+   ![manual2](images/manual-2.jpg)
 
-   *Figure 1.2 – Convert to Application* 
+   *Figure 1.2 – Convert to Application*
 
 8. Ensure that the Password Reset Server folder has the proper permissions by checking that the account running the application pool in IIS has Modify permissions on the folder where Password Reset Server is installed.
 
@@ -78,7 +78,7 @@ It is recommended that you create a new application pool if you have other web a
 
 3. Set Managed Pipeline Mode to Classic. Click OK.
 
-   ![](images/manual-3.jpg)
+   ![manual3](images/manual-3.jpg)
 
    *IIS Application Pool - Windows 8 IIS Application Pool - Windows 8.1*
 
@@ -98,6 +98,6 @@ The Windows Server 2012 R2 and Windows 8.1 application pool window will appear s
 
 6. In the new window, change Application Pool to the one we just created.
 
-   ![](images/manual-4.jpg)
+   ![manual4](images/manual-4.jpg)
 
    *Figure 2.1 – Specify Application Pool*
