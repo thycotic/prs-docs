@@ -8,7 +8,7 @@ Make sure you have the *prerequisites* installed before attempting to setup Pass
 
 ## Download the latest version of Password Reset Server
 
-The latest version of Password Reset Server is available for download [here](https://thycotic.force.com/support/s/download-prs).
+To download the installation file for the newest version of Password Reset Server, go to our [Support Community](https://thycotic.force.com/support/s/) page, log in, and click the Password Reset Server panel. Follow the prompts to navigate to the new download page, where you can download the **Installer (.msi)** file for automated installation.
 
 ## Running the MSI
 
