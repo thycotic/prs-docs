@@ -6,7 +6,12 @@
 The following covers the steps for the Password Reset Server installer for versions 5.2.0 and later.
 Ensure that IIS is enabled on the system you are installing Password Reset Server on.
 
-1. Download the installer ZIP file and extract the contents for the MSI file.
+1. Download the installer ZIP file and extract the contents for the MSI file. 
+
+   1. Go to our [Support Community](https://thycotic.force.com/support/s/) page, log in, and click the Password Reset Server panel.
+
+   1. Follow the prompts to navigate to the new download page, where you can choose to download an MSI file for automated installation, or a zip file for manual installation.
+
 1. Run the Installer file with Admin rights.
 1. Click __Next__.
 
@@ -86,4 +91,4 @@ The following steps are for selecting the Advanced option in the install wizard.
 1. Click the __Install__ button to finalize the install and begin the file creation on your system.
 1. Once the install has run you will be prompted to finish the installer. You can close the Installer dialog by clicking the __Finish__ button.
 
-This part of the installation is complete.  The website will be set up with the correct permissions and the browser will open to allow you to complete the Password Reset Server installation from the webpage. [The following section will guide you through this process](/installation\prs-website\index.md)
+This part of the installation is complete.  The website will be set up with the correct permissions and the browser will open to allow you to complete the Password Reset Server installation from the webpage.

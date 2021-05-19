@@ -151,10 +151,8 @@ A certificate can be obtained from various companies such as [Thawte](http://www
 
 ## Domain Account Requirements
 
-Each domain will need a domain account to synchronize the users and reset passwords. See the [Appendix](../appendix/index.md) for instructions to set up the domain account.
+Each domain will need a domain account to synchronize the users and reset passwords. For instructions on setting up a domain account, please scroll up this page to the section named, **Creating a domain account to reset passwords**.
 
 ## Additional Recommendations
-
-- Use an [SSL certificate](../appendix/index.md#ssl_certificate) for Password Reset Server.
 
 - Run [Microsoft Update](http://update.microsoft.com/) on your server to make sure all components are up to date.

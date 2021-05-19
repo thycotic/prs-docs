@@ -4,9 +4,7 @@
 
 # Installing and Configuring Microsoft SQL Server
 
-We recommend using Microsoft SQL Server 2012 or 2008. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). See the [appendix](../../../appendix/index.md) for details on software prerequisites.
-
-If using SQL Server 2008, SQL Server 2008 SP1 should be installed immediately after the installation is complete to resolve compatibility issues with Windows 7 and Windows Server 2008 R2.
+We recommend using Microsoft SQL Server 2012. A free edition called Microsoft SQL Server Express is available to [download](https://updates.thycotic.net/link.ashx?SQLServerExpressDownload). 
 
 **Please Note**: Secret Server and Password Reset Server require SQL_Latin1_General_CP1_CI_AS to be the default collation for Microsoft SQL Server and its database. Using a different default collation will cause the installation to fail. See Microsoft SQL [collation requirements](https://docs.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-ver15) and check your server collation settings before upgrading.
 
